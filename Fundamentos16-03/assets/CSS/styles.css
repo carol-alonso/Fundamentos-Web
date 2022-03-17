@@ -1,0 +1,92 @@
+.center {
+  text-align: center;
+}
+
+#wpp {
+  background-color: #4c91ae;
+  background-image: url("R.jpg");
+}
+
+.fontcursive {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.fontcursive2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.flexcontainer {
+  display: flex;
+  background-color: #1f566d;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flexcontainer > div {
+  background-color: #1f566d;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.flexcontainer2 {
+  display: flex;
+  background-color: #081d25;
+  flex-direction: column;
+}
+
+.flexcontainer2 > div {
+  background-color: #081d25;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.flexcontainer3 {
+  display: flex;
+  background-color: #4c91ae;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexcontainer3 > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.flexcontainer4 {
+  display: flex;
+  background-color: #1f566d;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu li {
+  display: inline;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#menu li a:hover {
+  color: #081d25;
+}
+
+/* TESTE
+
+    #button div button {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#button div button:hover {
+    color: #081d25;
+}
+*/
