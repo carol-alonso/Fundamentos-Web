@@ -1,32 +1,34 @@
-.center {
+#center {
+  text-align: center;
+}
+
+.centermenu {
   text-align: center;
 }
 
 #wpp {
-  background-color: #4c91ae;
-  background-image: url("R.jpg");
+  background-color: #e9e9e9;
 }
 
 .fontcursive {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 25px;
-  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(17, 17, 17);
 }
-.fontcursive2 {
+.font2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .flexcontainer {
   display: flex;
-  background-color: #1f566d;
+  background-color: #779fb1;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .flexcontainer > div {
-  background-color: #1f566d;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
@@ -34,7 +36,7 @@
 
 .flexcontainer2 {
   display: flex;
-  background-color: #081d25;
+  background-color: #3a5d6b;
   flex-direction: column;
 }
 
@@ -47,7 +49,6 @@
 
 .flexcontainer3 {
   display: flex;
-  background-color: #4c91ae;
   flex-direction: column;
   align-items: center;
 }
@@ -57,12 +58,7 @@
   padding: 20px;
   font-size: 20px;
 }
-.flexcontainer4 {
-  display: flex;
-  background-color: #1f566d;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 #menu li {
   display: inline;
@@ -72,21 +68,15 @@
 
 #menu li a {
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(3, 3, 3);
 }
 
 #menu li a:hover {
   color: #081d25;
 }
 
-/* TESTE
+.tmsocial {
+  width: 50px;
 
-    #button div button {
-    text-decoration: none;
-    color: aliceblue;
+  padding: 50px;
 }
-
-#button div button:hover {
-    color: #081d25;
-}
-*/
